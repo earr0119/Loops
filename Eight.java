@@ -10,16 +10,16 @@ public class Eight {
 			JOptionPane.showMessageDialog(null, "The number " +num+" has one digit");
 		}
 		else if (num < 100) {
-			JOptionPane.showMessageDialog(null, "The number " +num+" has two digits");
+			JOptionPane.showMessageDialog(null, "The number " +num+" have two digits");
 		}
 		else if (num < 1000) {
-			JOptionPane.showMessageDialog(null, "The number " +num+" has Three digits");
+			JOptionPane.showMessageDialog(null, "The number " +num+" have Three digits");
 		}
 		else if (num < 10000) {
-			JOptionPane.showMessageDialog(null, "The number " +num+" has four digits");
+			JOptionPane.showMessageDialog(null, "The number " +num+" have four digits");
 		}
 		else if (num < 100000) {
-			JOptionPane.showMessageDialog(null, "The number " +num+" has five digits");
+			JOptionPane.showMessageDialog(null, "The number " +num+" have five digits");
 		}
 	}
 }
