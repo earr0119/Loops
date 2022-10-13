@@ -5,7 +5,7 @@ public class Five {
 		int hours;
 		float totalsalary;
 		
-		hours = Integer.parseInt(JOptionPane.showInputDialog("How many hour did the worker work this week?: "));
+		hours = Integer.parseInt(JOptionPane.showInputDialog("How many hours did the worker work this week?: "));
 		
 		if(hours <= 40) {
 			totalsalary = hours * 16;
